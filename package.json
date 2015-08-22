@@ -1,0 +1,30 @@
+{
+  "name": "tiny-nlp.js",
+  "version": "0.0.1",
+  "description": "A port of Mispy's ruby twitter nlp library to node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldritchreality/tiny-nlp.js.git"
+  },
+  "keywords": [
+    "nlp",
+    "node"
+  ],
+  "author": "http://github.com/eldritchreality",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eldritchreality/tiny-nlp.js/issues"
+  },
+    "dependencies" : {
+        "salient":"0.3.0"
+    },
+   "devDependencies" : {
+       "mocha":"2.2.x",
+       "chai":"3.2.x"
+   },
+  "homepage": "https://github.com/eldritchreality/tiny-nlp.js"
+}
