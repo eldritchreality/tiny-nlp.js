@@ -3,7 +3,12 @@ var nlp = require("index.js");
 
 define("The NLP Library", function () {
     
-    it("Should load a list of Stopwords",function() {});
+    it("Should load a list of Stopwords",function(done) {
+        
+        
+        
+        done();
+    });
     
     it("Should load an array of known nouns",function() {});
     
